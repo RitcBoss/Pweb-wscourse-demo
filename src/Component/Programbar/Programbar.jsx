@@ -1,6 +1,6 @@
 import React from 'react'
 import './Programbar.css'
-import icon_sollumz from '../assets/imges/sollumz.png'
+
 import icon_openiv from '../Assets/imges/openiv.png'
 import icon_codewalker from '../Assets/imges/codewalker.png'
 import icon_blender from '../Assets/imges/blender.png'
