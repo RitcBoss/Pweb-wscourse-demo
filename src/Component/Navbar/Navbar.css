@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-lm);
+
+    a {
+        color: var(--text-white);
+    }
+}
+
+.nav-bar__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    width: 100%;
+    max-width: 1240px;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    i {
+        margin-right: 10px;
+    }
+}
+
+.nav__right-t {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 200;
+    transition: all .3s ease;
+}
+
+.nav__right-t:hover {
+    color: var(--text-gray);
+}
